@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAggregator", "AccountAggregator\AccountAggregator.csproj", "{13664B04-D5EA-4844-8A20-BC724BB697CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAggregator.DataBaseLayer", "AccountAggregator.DataBaseLayer\AccountAggregator.DataBaseLayer.csproj", "{C722951B-350D-4353-8D5E-DF1DCA4CE22A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAggregator.ModelLayer", "AccountAggregator.ModelLayer\AccountAggregator.ModelLayer.csproj", "{49D6EBC6-FC51-423A-8230-A0852FB44BA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAggregator.InterfaceLayer", "AccountAggregator.InterfaceLayer\AccountAggregator.InterfaceLayer.csproj", "{BBB946AC-CF62-4C4D-89FC-B8E633BF5F8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountAggregator.ServiceLayer", "AccountAggregator.ServiceLayer\AccountAggregator.ServiceLayer.csproj", "{5BA2BE23-9BFB-4D5E-8E79-41468866813E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13664B04-D5EA-4844-8A20-BC724BB697CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13664B04-D5EA-4844-8A20-BC724BB697CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13664B04-D5EA-4844-8A20-BC724BB697CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13664B04-D5EA-4844-8A20-BC724BB697CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C722951B-350D-4353-8D5E-DF1DCA4CE22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C722951B-350D-4353-8D5E-DF1DCA4CE22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C722951B-350D-4353-8D5E-DF1DCA4CE22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C722951B-350D-4353-8D5E-DF1DCA4CE22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D6EBC6-FC51-423A-8230-A0852FB44BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D6EBC6-FC51-423A-8230-A0852FB44BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D6EBC6-FC51-423A-8230-A0852FB44BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D6EBC6-FC51-423A-8230-A0852FB44BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB946AC-CF62-4C4D-89FC-B8E633BF5F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB946AC-CF62-4C4D-89FC-B8E633BF5F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB946AC-CF62-4C4D-89FC-B8E633BF5F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB946AC-CF62-4C4D-89FC-B8E633BF5F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA2BE23-9BFB-4D5E-8E79-41468866813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA2BE23-9BFB-4D5E-8E79-41468866813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA2BE23-9BFB-4D5E-8E79-41468866813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA2BE23-9BFB-4D5E-8E79-41468866813E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E354BAB8-A529-4D3A-ACE5-6554F0C99991}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://10.1.20.54:8080/tfs/accountagg
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AccountAggregator\\AccountAggregator.csproj
+		SccProjectName1 = AccountAggregator
+		SccLocalPath1 = AccountAggregator
+		SccProjectUniqueName2 = AccountAggregator.DataBaseLayer\\AccountAggregator.DataBaseLayer.csproj
+		SccProjectName2 = AccountAggregator.DataBaseLayer
+		SccLocalPath2 = AccountAggregator.DataBaseLayer
+		SccProjectUniqueName3 = AccountAggregator.ModelLayer\\AccountAggregator.ModelLayer.csproj
+		SccProjectName3 = AccountAggregator.ModelLayer
+		SccLocalPath3 = AccountAggregator.ModelLayer
+		SccProjectUniqueName4 = AccountAggregator.InterfaceLayer\\AccountAggregator.InterfaceLayer.csproj
+		SccProjectName4 = AccountAggregator.InterfaceLayer
+		SccLocalPath4 = AccountAggregator.InterfaceLayer
+		SccProjectUniqueName5 = AccountAggregator.ServiceLayer\\AccountAggregator.ServiceLayer.csproj
+		SccProjectName5 = AccountAggregator.ServiceLayer
+		SccLocalPath5 = AccountAggregator.ServiceLayer
+	EndGlobalSection
+EndGlobal

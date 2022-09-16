@@ -1,0 +1,27 @@
+﻿{
+    "SourceName" : "BOL",
+    "ApplicationNumber" :"123456",
+    "PolicyNumber" :"RDC345",
+    "TransactionId":"12345678987",
+    "ProductName":"Account Aggregator",
+    "ObjBasicDetail":{
+        "ProposerFirstName":"Avadhut",
+        "ProposerLastName":"Parab",
+        "ProposerDateOfBirth":"1992-04-18",
+        "ProposerGender" : "Male",
+        "ProposerEmailId" : "parab@gamil.com",
+        "ProposerMobileNo" : "9619725962",
+        "ProposerMaritalStatus" :"Single",
+        "ProposerPANCardNo" : "BMTPP0480N"
+    },
+    "ObjBankAccountDetails":[
+        {
+            "AccountNumber" : "123456789123",
+            "AccountHolderName" :"Avadhut Parab",
+            "IFSCCode" :"ICICI0967R",
+            "AccountType":"Saving",
+            "BankName":"ICICI Bank",
+            "BranchName" :"Nerul"
+        }
+    ]
+}
